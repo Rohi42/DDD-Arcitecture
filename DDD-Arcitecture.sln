@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDevopsWorkItems", "CGC\AzureDevopsWorkItems.csproj", "{44FE6E13-C6FA-4C84-A063-D699362B0600}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGateWay", "ApiGateWay\ApiGateWay.csproj", "{C5CE6328-2309-4BD8-9707-C5713EEAE244}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWTHandler", "JWTHandler\JWTHandler.csproj", "{CA09BBFE-BA6A-49BC-A8CD-C736091D1A3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication", "Authentication\Authentication.csproj", "{036342E1-ED54-4D55-B1CB-D95400E823CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44FE6E13-C6FA-4C84-A063-D699362B0600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44FE6E13-C6FA-4C84-A063-D699362B0600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44FE6E13-C6FA-4C84-A063-D699362B0600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44FE6E13-C6FA-4C84-A063-D699362B0600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5CE6328-2309-4BD8-9707-C5713EEAE244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5CE6328-2309-4BD8-9707-C5713EEAE244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5CE6328-2309-4BD8-9707-C5713EEAE244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5CE6328-2309-4BD8-9707-C5713EEAE244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA09BBFE-BA6A-49BC-A8CD-C736091D1A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA09BBFE-BA6A-49BC-A8CD-C736091D1A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA09BBFE-BA6A-49BC-A8CD-C736091D1A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA09BBFE-BA6A-49BC-A8CD-C736091D1A3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{036342E1-ED54-4D55-B1CB-D95400E823CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{036342E1-ED54-4D55-B1CB-D95400E823CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{036342E1-ED54-4D55-B1CB-D95400E823CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{036342E1-ED54-4D55-B1CB-D95400E823CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB232C99-E9F0-4EF0-A25A-E85557531077}
+	EndGlobalSection
+EndGlobal

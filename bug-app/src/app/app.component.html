@@ -1,0 +1,29 @@
+
+
+<mat-toolbar >
+  <button mat-icon-button (click)="nav.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Bug Tracking</span>
+</mat-toolbar>
+
+<mat-sidenav-container  class="sidenav-wrapper">
+  <mat-sidenav #nav class="sidenav">
+    <a routerLink="/">
+      <button mat-button>
+        <mat-icon>dashboard</mat-icon><span>DashBoard</span>
+      </button>
+    </a>
+    <a routerLink="/table">
+      <button mat-button>
+        <mat-icon>bug_report</mat-icon><span>Bug List</span>
+      </button>
+    </a>
+  </mat-sidenav>
+  <mat-sidenav-content >
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+

@@ -1,0 +1,51 @@
+
+
+<div mat-dialog-title>
+    <h1>WorkItem Form</h1>
+</div>
+<form [formGroup]="stdForm" (ngSubmit)="onFormSubmit()">
+    <div mat-dialog-content class="content">
+        <div >
+            <mat-form-field appearance="outline">
+                <mat-label>Name</mat-label>
+                <input matInput placeholder="" formControlName="displayName">
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Title</mat-label>
+                <input matInput placeholder="" formControlName="systemTitle">
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Priority</mat-label>
+                <mat-select formControlName="commonPriority">
+                    <mat-option *ngFor="let number of priority" [value]="number">{{ number }}</mat-option>
+                  </mat-select>
+              </mat-form-field>
+
+            <div class="lodingScreen" style="background-color: rgba(212, 204, 204, 0.6);" *ngIf="isLoading">
+                <mat-progress-spinner 
+                  color="primary" 
+                  mode="indeterminate">
+                </mat-progress-spinner>
+            </div>
+              
+            <mat-form-field appearance="outline">
+                <mat-label>Steps</mat-label>
+                <textarea matInput placeholder="" formControlName="tcmReproSteps"></textarea>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Severity</mat-label>
+                <mat-select formControlName="commonSeverity">
+                    <mat-option *ngFor="let severe of severity" [value]="severe">{{ severe }}</mat-option>
+                </mat-select>
+            </mat-form-field>
+            
+            <div mat-dialog-action class="action">
+                <button mat-raised-button style="margin-right:20px" mat-dialog-close="false" >CANCEL</button>
+            <button mat-raised-button color="primary" style="margin-left:800px" type="submit" >{{data?'Update':'Save'}}</button>
+            </div>
+        </div>
+    </div>
+</form>
