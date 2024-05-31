@@ -1,11 +1,9 @@
 <pre>The .NET projects require .NET 8 SDK.</pre>
-<pre>The Angular UI application performs CRUD operations.</pre>
 <pre>Implemented Identity server and Ocelot gatway.</pre>
-<pre>The Authorization is commented because the interceptors were not implemented in Angular UI.</pre>
+<pre>The Authorization is commented.</pre>
 <pre></pre>
 <pre>LIST TO DO: </pre>
-  <pre>Display of all bugs in a list - Bug Id, Title, State, Priority, Assigned To ------ Implemented</pre>
-  <pre>Select and multi-select ---- Implemented</pre>
+  <pre>Display of all bugs in a list - Bug Id, Title, State, Priority, Assigned To ------ Implemented</pre>s
   <pre>Delete a bug ---- Implemented</pre>
   <pre>To "delete", in Azure DevOps, you set the WorkItem State = Removed ----- Implemented</pre>
   <pre>Log the delete in the revisions history ---- Added comments to Fields/System.Hitory</pre>
