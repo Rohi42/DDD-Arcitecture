@@ -13,7 +13,7 @@ namespace AzureDevops.Domain.Service
     public class AzureDomainService : IAzureDomainService
     {
         private HttpClient _client;
-        private String personalAccessToken = "pp5h2fk5p3n6u4gz2gemtoqh4pq6ea2fqwsaqmt4vihnezt5fr2a";
+        private String personalAccessToken = "";
 
         public AzureDomainService()
         {
